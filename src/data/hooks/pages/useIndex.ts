@@ -40,7 +40,6 @@ export function useIndex()
                     .then(() => {
                         setPetSelecionado(null);
                         setMensagem('Pet adotado com sucesso! Aproveite seu novo companheiro!');
-                        limparFormulario()
                     })
                     .catch((error: AxiosError) =>
                     {
